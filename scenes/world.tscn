@@ -1,14 +1,14 @@
 [gd_scene load_steps=3 format=3 uid="uid://davs5qwcxo2tc"]
 
-[ext_resource type="Script" path="res://scripts/MoveCamera.cs" id="1_n4syd"]
-[ext_resource type="Texture2D" uid="uid://cseljo6rc4xfo" path="res://scenes/dot.tres" id="2_u2c72"]
+[ext_resource type="Script" path="res://scripts/MoveCamera.cs" id="1_njns1"]
+[ext_resource type="Texture2D" uid="uid://cseljo6rc4xfo" path="res://scenes/dot.tres" id="2_nli1f"]
 
 [node name="World" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00711167)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-script = ExtResource("1_n4syd")
+script = ExtResource("1_njns1")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0253491, -0.0298382, -2.62925)
-texture = ExtResource("2_u2c72")
+texture = ExtResource("2_nli1f")
